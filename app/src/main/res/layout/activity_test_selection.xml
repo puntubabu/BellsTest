@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb0000"
+    tools:context="edu.osu.stroketests.TestSelectionActivity" >
+
+    <LinearLayout
+            android:id="@+id/test_list"
+            style="?metaButtonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+    <Button
+        android:id="@+id/btnBellsTest"
+        android:drawableLeft="@drawable/bellicon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/bells_test"
+        android:textColor="#666666"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:onClick="onClick" 
+        style="?android:attr/borderlessButtonStyle"/>
+    <Button
+        android:id="@+id/btnBellsPreTest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/bells_pre_test"
+        android:textColor="#666666"
+        android:textSize="50sp"
+        android:textStyle="bold" 
+        android:onClick="onClick"
+        style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+
+</FrameLayout>

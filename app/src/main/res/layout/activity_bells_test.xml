@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outerLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb0000"
+    tools:context="edu.osu.bellstest.BellsTestActivity">
+
+    <Button 
+        android:id="@+id/btnGenerateReport"
+        android:text="@string/generatereport"
+        android:onClick="onClick"
+        android:layout_width="100px"
+    	android:layout_height="39px"
+        tools:ignore="PxUsage"/>
+    
+        <Button 
+        android:id="@+id/btnSaveScreenshot"
+        android:text="@string/savescreenshot"
+        android:onClick="onClick"
+        android:layout_width="100px"
+    	android:layout_height="39px"
+        tools:ignore="PxUsage"/>
+    
+    
+    <RelativeLayout
+        android:id="@+id/innerLayout"
+        android:layout_width="1141px"
+        android:layout_height="870px"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        tools:ignore="PxUsage" >
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linesOverlay"
+        android:layout_width="1141px"
+        android:layout_height="1000px"
+        android:layout_gravity="center"
+        tools:ignore="PxUsage" >
+        
+    </RelativeLayout>
+
+</FrameLayout>

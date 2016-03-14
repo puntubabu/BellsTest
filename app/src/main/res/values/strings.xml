@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wexner Medical Center</string>
+    <string name="bells_test">Bells Test</string>
+    <string name="bells_pre_test">Bells Pre-Test</string>
+    <string name="dummy_test">Future Test</string>
+    <string name="title_activity_bells_test">BellsTestActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="startbellstest">Start Bells Test</string>
+    <string name="generatereport">Generate Report Test</string>
+    <string name="savescreenshot">Save Screenshot</string>
+    <string name="emailscreenshot">Email Screenshot</string>
+    <string name="title_activity_bells_pre_test">BellsPreTest</string>
+    <string name="selectbellmessage">Please Select the Bell</string>
+
+</resources>
